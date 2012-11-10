@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>name</key>
+		<string>The Time Plaza</string>
+		<key>addr</key>
+		<string>Sh</string>
+		<key>hot</key>
+		<string>Very Hot</string>
+		<key>price</key>
+		<string>$49</string>
+		<key>wifi</key>
+		<true/>
+		<key>park</key>
+		<false/>
+		<key>card</key>
+		<true/>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>name</key>
+		<string>The Time Plaze 2</string>
+		<key>addr</key>
+		<string>SH2</string>
+		<key>wifi</key>
+		<true/>
+		<key>hot</key>
+		<string>Very Hot2</string>
+		<key>price</key>
+		<string>$30</string>
+		<key>park</key>
+		<false/>
+		<key>card</key>
+		<true/>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>name</key>
+		<string>The Time Plaze 3</string>
+		<key>addr</key>
+		<string>SH3</string>
+		<key>hot</key>
+		<string>Very Hot3</string>
+		<key>price</key>
+		<string>$80</string>
+		<key>wifi</key>
+		<true/>
+		<key>park</key>
+		<false/>
+		<key>card</key>
+		<true/>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>name</key>
+		<string>The Time Plaza 4</string>
+		<key>addr</key>
+		<string>SH4</string>
+		<key>hot</key>
+		<string>Very Hot4</string>
+		<key>price</key>
+		<string>$78</string>
+		<key>wifi</key>
+		<true/>
+		<key>park</key>
+		<false/>
+		<key>card</key>
+		<true/>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>name</key>
+		<string>The Time Plaza 5</string>
+		<key>addr</key>
+		<string>SH5</string>
+		<key>hot</key>
+		<string>Very Hot5</string>
+		<key>price</key>
+		<string>$199</string>
+		<key>wifi</key>
+		<true/>
+		<key>park</key>
+		<false/>
+		<key>card</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
