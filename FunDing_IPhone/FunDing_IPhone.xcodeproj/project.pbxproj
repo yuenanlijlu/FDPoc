@@ -24,7 +24,6 @@
 		18E9FB38164A9EA9004586CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9FB37164A9EA9004586CD /* Default-568h@2x.png */; };
 		18E9FB3B164A9EA9004586CD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9FB39164A9EA9004586CD /* MainStoryboard.storyboard */; };
 		18E9FB3E164A9EA9004586CD /* FunDingIPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9FB3D164A9EA9004586CD /* FunDingIPhoneViewController.m */; };
-		5FDDD0FE164E343600B040E3 /* ReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDD0FD164E343600B040E3 /* ReservationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +52,6 @@
 		18E9FB3A164A9EA9004586CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		18E9FB3C164A9EA9004586CD /* FunDingIPhoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunDingIPhoneViewController.h; sourceTree = "<group>"; };
 		18E9FB3D164A9EA9004586CD /* FunDingIPhoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunDingIPhoneViewController.m; sourceTree = "<group>"; };
-		5FDDD0FC164E343600B040E3 /* ReservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReservationViewController.h; path = ../../../ReservationViewController.h; sourceTree = "<group>"; };
-		5FDDD0FD164E343600B040E3 /* ReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReservationViewController.m; path = ../../../ReservationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +81,6 @@
 				18B25BB6164CE3C200750473 /* TV_FunDingIPhoneController.m */,
 				188EC3CA164D3CDC00B976F2 /* UV_Maps.h */,
 				188EC3CB164D3CDC00B976F2 /* UV_Maps.m */,
-				5FDDD0FC164E343600B040E3 /* ReservationViewController.h */,
-				5FDDD0FD164E343600B040E3 /* ReservationViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -221,7 +216,6 @@
 				18B25BB7164CE3C200750473 /* TV_FunDingIPhoneController.m in Sources */,
 				18B25BBE164CF8B300750473 /* UV_FunDingIPhoneController.m in Sources */,
 				188EC3CC164D3CDC00B976F2 /* UV_Maps.m in Sources */,
-				5FDDD0FE164E343600B040E3 /* ReservationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
