@@ -26,6 +26,9 @@
 		18E9FB3E164A9EA9004586CD /* FunDingIPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9FB3D164A9EA9004586CD /* FunDingIPhoneViewController.m */; };
 		5F254E7A164E36E6001719CE /* ReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F254E79164E36E6001719CE /* ReservationViewController.m */; };
 		5F254E82164E37C7001719CE /* MHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F254E81164E37C7001719CE /* MHTabBarController.m */; };
+		5F254E8E164E3B96001719CE /* MHTabBarActiveTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F254E8B164E3B96001719CE /* MHTabBarActiveTab.png */; };
+		5F254E8F164E3B96001719CE /* MHTabBarInactiveTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F254E8C164E3B96001719CE /* MHTabBarInactiveTab.png */; };
+		5F254E90164E3B96001719CE /* MHTabBarIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F254E8D164E3B96001719CE /* MHTabBarIndicator.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		5F254E79164E36E6001719CE /* ReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationViewController.m; sourceTree = "<group>"; };
 		5F254E80164E37C7001719CE /* MHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTabBarController.h; sourceTree = "<group>"; };
 		5F254E81164E37C7001719CE /* MHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTabBarController.m; sourceTree = "<group>"; };
+		5F254E8B164E3B96001719CE /* MHTabBarActiveTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MHTabBarActiveTab.png; sourceTree = "<group>"; };
+		5F254E8C164E3B96001719CE /* MHTabBarInactiveTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MHTabBarInactiveTab.png; sourceTree = "<group>"; };
+		5F254E8D164E3B96001719CE /* MHTabBarIndicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MHTabBarIndicator.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,9 @@
 		18E9FB28164A9EA9004586CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5F254E8B164E3B96001719CE /* MHTabBarActiveTab.png */,
+				5F254E8C164E3B96001719CE /* MHTabBarInactiveTab.png */,
+				5F254E8D164E3B96001719CE /* MHTabBarIndicator.png */,
 				18E9FB29164A9EA9004586CD /* FunDing_IPhone-Info.plist */,
 				18E9FB2A164A9EA9004586CD /* InfoPlist.strings */,
 				18E9FB2D164A9EA9004586CD /* main.m */,
@@ -210,6 +219,9 @@
 				18E9FB38164A9EA9004586CD /* Default-568h@2x.png in Resources */,
 				18E9FB3B164A9EA9004586CD /* MainStoryboard.storyboard in Resources */,
 				18B25B9E164BCF6100750473 /* Restraurant.plist in Resources */,
+				5F254E8E164E3B96001719CE /* MHTabBarActiveTab.png in Resources */,
+				5F254E8F164E3B96001719CE /* MHTabBarInactiveTab.png in Resources */,
+				5F254E90164E3B96001719CE /* MHTabBarIndicator.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
