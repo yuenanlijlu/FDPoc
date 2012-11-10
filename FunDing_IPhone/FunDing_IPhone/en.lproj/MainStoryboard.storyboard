@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5vc-e7-Fhe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="bml-Pc-csP">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
     </dependencies>
@@ -76,6 +76,9 @@
                                     <constraint firstItem="yx2-Pr-MWR" firstAttribute="baseline" secondItem="xBC-qi-odG" secondAttribute="baseline" type="default" id="qbx-HG-3Bv"/>
                                     <constraint firstItem="yx2-Pr-MWR" firstAttribute="leading" secondItem="mww-ir-zc3" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="rnP-ke-Ooh"/>
                                 </constraints>
+                                <connections>
+                                    <segue destination="5vc-e7-Fhe" kind="push" id="Gtz-RZ-hvd"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -99,10 +102,22 @@
             <objects>
                 <viewController id="5vc-e7-Fhe" customClass="MHTabBarController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4tD-ru-iM3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-dI-ahT">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XmO-dI-ahT" firstAttribute="leading" secondItem="4tD-ru-iM3" secondAttribute="leading" type="default" id="4gy-us-CwN"/>
+                            <constraint firstItem="XmO-dI-ahT" firstAttribute="top" secondItem="4tD-ru-iM3" secondAttribute="top" type="default" id="Tz5-kA-uqo"/>
+                            <constraint firstItem="XmO-dI-ahT" firstAttribute="trailing" secondItem="4tD-ru-iM3" secondAttribute="trailing" type="default" id="b5D-rp-1Cw"/>
+                            <constraint firstItem="XmO-dI-ahT" firstAttribute="bottom" secondItem="4tD-ru-iM3" secondAttribute="bottom" type="default" id="dF0-8O-pVd"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Px0-g6-Mhq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lgv-gC-inC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
