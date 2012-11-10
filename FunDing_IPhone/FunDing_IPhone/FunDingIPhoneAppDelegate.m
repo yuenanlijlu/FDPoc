@@ -14,7 +14,7 @@
 {
     // Override point for customization after application launch.
     //return YES;
-    
+    [NSThread sleepForTimeInterval:3.5];
     //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     //self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
