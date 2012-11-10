@@ -25,6 +25,7 @@
 		18E9FB3B164A9EA9004586CD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9FB39164A9EA9004586CD /* MainStoryboard.storyboard */; };
 		18E9FB3E164A9EA9004586CD /* FunDingIPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9FB3D164A9EA9004586CD /* FunDingIPhoneViewController.m */; };
 		5F254E7A164E36E6001719CE /* ReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F254E79164E36E6001719CE /* ReservationViewController.m */; };
+		5F254E82164E37C7001719CE /* MHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F254E81164E37C7001719CE /* MHTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,8 @@
 		18E9FB3D164A9EA9004586CD /* FunDingIPhoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunDingIPhoneViewController.m; sourceTree = "<group>"; };
 		5F254E78164E36E6001719CE /* ReservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationViewController.h; sourceTree = "<group>"; };
 		5F254E79164E36E6001719CE /* ReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationViewController.m; sourceTree = "<group>"; };
+		5F254E80164E37C7001719CE /* MHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTabBarController.h; sourceTree = "<group>"; };
+		5F254E81164E37C7001719CE /* MHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				188EC3CB164D3CDC00B976F2 /* UV_Maps.m */,
 				5F254E78164E36E6001719CE /* ReservationViewController.h */,
 				5F254E79164E36E6001719CE /* ReservationViewController.m */,
+				5F254E80164E37C7001719CE /* MHTabBarController.h */,
+				5F254E81164E37C7001719CE /* MHTabBarController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				18B25BBE164CF8B300750473 /* UV_FunDingIPhoneController.m in Sources */,
 				188EC3CC164D3CDC00B976F2 /* UV_Maps.m in Sources */,
 				5F254E7A164E36E6001719CE /* ReservationViewController.m in Sources */,
+				5F254E82164E37C7001719CE /* MHTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
